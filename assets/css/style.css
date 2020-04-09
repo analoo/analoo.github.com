@@ -1,15 +1,41 @@
-body{
-    background-color: thistle;
-    font-family: 'Abril Fatface', cursive;
-
-
-}
-
 
 header{
     width: 80vw;
     margin: auto;
     text-align: center;
+}
+
+.jumbotron{
+    background-color:inherit;
+    margin: 0;
+    padding: 10px; 
+
+}
+
+#name h4{
+    padding: 10px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #251e21;
+
+
+}
+
+.card{
+    text-align: center;
+}
+
+.btn-link{
+    width:60px;
+    height:40px;
+    text-align: center;
+    background-color: #a7a4b3;
+    color: white;
+}
+
+#number{
+    display: none;
+    color:  #a7a4b3;
 }
 
 main{
@@ -18,90 +44,79 @@ main{
     background-color: white;
 }
 
-#nav-bar{
-    text-align: center;
-    padding: 10px;
-    border-bottom: solid 10px thistle;    
+.main-panel{
+    padding: 50px;
 }
 
+body{
+    background-color: #a7a4b3;
+    font-family: 'Roboto', sans-serif;
+}
 .nav{
-    padding: 10px 20px 10px 20px;
     background-color: white;
-    color: black;
-    line-height: 2;
-    text-decoration: none;
+    padding: 10px 0 10px 0;
+    border-bottom: solid 10px #30442b ;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: large;
+    background-color: white;
+    color: #912069;
     border-radius: 4px;
+    line-height: 1.2;
+  
+
 }
 
-.nav:hover{
-    background-color: thistle;
+.nav-link:hover{
+    background-color: #a0ae7e;
     color: white;
-}
-
-.active-nav{
-    background-color: thistle;
-    color: white;
-}
-
-.box{
-    box-shadow: 2px 2px lightgrey;
-}
-
-#float-left{
-    width: 30%;
-    margin: 40px;
-    float: left;
 }
 
 #my-photo{
-    width: 30%;
-    display: inline-block;
-    margin: 20px;
+    width: 90%;
+    margin: 8%;
+    border-radius: 8px;
+
 }
 
-#linkedIn, #gitHub{
+#linkedIn, #gitHub, #livesite{
     height: 20px;
     box-shadow:0px;
     display: relative;
     margin: 5px 10px 5px 10px;
+    text-align: left;
 }
 
-.float-right{
-    float: right;
-    height: 100%;
+h3{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    color: #30442b;
+    font-weight: 100;
 }
 
-#about-me{
-    width: 60%;
-    margin: 20px 0 40px 0;
-    display: inline-block;
-}
 
-h3, p{
-    font-family: 'Open Sans Condensed';
-    padding-left: 10px;
-    padding-right: 10px;
-
+p{
+    font-family: 'Roboto', sans-serif;
     line-height: 2;
+    color: #4b4a45;
+    font-size: smaller;
 }
 
-h1{
-    font-family: 'Lobster', cursive;
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 100;
+
     
 }
 
-#portfolio-examples{
-    background-color: thistle;
-    width: 75vw;
-    margin: auto;
-    clear: both;
-
-}
 
 .box-border{
     height: 300px;
     width: 300px;
-    float: left;
     text-align: center;
 
 }
@@ -125,23 +140,31 @@ h1{
 
 }
 
-.titles{
-    display: inline;
-    float: left;
-    width: 70%;
-    padding: 10px;
+#shield{
+    background-color: #a7a4b3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: .5;
+    display: none;
+
 }
 
 .expand-image{
-    display: inline;
     float: left;
     width: 20%;
     margin-left: 40px;
 }
 
+.figure-caption{
+    color: black;
+}
+
 
 .resume-section{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     width: 90%;
     padding: 10px;
@@ -152,37 +175,45 @@ h1{
 }
 
 .resume-heading{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: large;
     text-align: center;
 }
 
 .company{
+    font-size: medium;
     float: left;
     padding: 0;
+    color: #30442b;
+
 }
 
 .timing{
+    font-size: medium;
     float: right;
     padding: 0;
 
 }
 .title{
+    font-size: medium;
     display: inline-block;
     font-weight: bold;
+    padding-left: 10px;
+    color: #912069;
 }
 
 .work-div{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 ul{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: medium;
     padding-top: 0;
 }
 
 li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: small;
     padding-bottom: 2px;
     line-height: 1.1;
